@@ -18,3 +18,10 @@ This model helps in:
 Analyzing signal strength and loading Impedance matching for the amplifier input Ensuring minimal signal loss at the interface
 <img width="1423" height="788" alt="17541336503743020520961760886418" src="https://github.com/user-attachments/assets/a72b88df-f62b-4068-aae1-750dc20fcc94" />
 
+📈 Output Response of the Microphone Circuit The simulation below shows the voltage output (vout) across the load, after signal amplification and filtering.
+
+Mic Output Plot
+
+<img width="1415" height="708" alt="17541338007582985230850898395336" src="https://github.com/user-attachments/assets/24703462-a5e4-4f9f-8efc-16250bca0669" />
+
+
