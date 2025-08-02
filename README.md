@@ -14,5 +14,7 @@ Analog IC Design Internship Report Name: Om Dibyajyoti Ray SIC: 23BEEJ16 Branch:
 
 This model helps in:
 
+
 Analyzing signal strength and loading Impedance matching for the amplifier input Ensuring minimal signal loss at the interface
+<img width="1423" height="788" alt="17541336503743020520961760886418" src="https://github.com/user-attachments/assets/a72b88df-f62b-4068-aae1-750dc20fcc94" />
 
