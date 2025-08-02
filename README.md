@@ -42,4 +42,19 @@ Simulink Output The Simulink simulation confirms system-level behavior and time-
 
 <img width="931" height="394" alt="17541341302786444765067748737231" src="https://github.com/user-attachments/assets/4b1750d3-c9d0-4710-8fba-8b3c5bf478eb" />
 high-Pass Filter Circuit This section explains the working and transfer function of a high-pass filter using an op-amp.
+<img width="1080" height="630" alt="17541342189867360962650669943510" src="https://github.com/user-attachments/assets/231cd888-9615-4b45-91a7-03911f5ebeaf" />
+
+High-Pass Filter Circuit 🧰 Circuit Overview Input Capacitor C_i = 4.7μF: Blocks DC Resistors R_i = R_f = 5kΩ: Define gain and cutoff Op-Amp in non-inverting configuration 🧮 S-Domain Transfer Function H(s) = (Rf * s * Ci) / (1 + s * Ri * Ci)
+
+At low frequencies → H(s) → 0 (attenuates low freq) At high frequencies → H(s) → 1 (passes high freq) 🔻 Cutoff Frequency (fc) fc = 1 / (2πRiCi) ≈ 6.77 Hz For Ri = 5kΩ, Ci = 4.7μF
+
+🖼️ Op-Amp Schematic Diagram Detailed internal schematic of the operational amplifier:
+<img width="941" height="451" alt="17541342537727379113535766509858" src="https://github.com/user-attachments/assets/0e3621b4-7454-49d8-ac7a-330c1a0153fe" />
+Op-Amp Symbolic Diagram Standard symbolic representation of an operational amplifier:
+<img width="1015" height="667" alt="17541342945323191885007027604472" src="https://github.com/user-attachments/assets/d7138a84-fdae-4479-a000-e4738809d2a3" />
+Opamp Symbol 📐 High-Pass Filter Circuit Using the Op-Amp High-pass filter circuit built using the op-amp symbol shown above: High-Pass Circuit:
+<img width="791" height="621" alt="17541343368786039256259874541404" src="https://github.com/user-attachments/assets/0ed59575-507d-4d9f-a86e-86eeffa15ffd" />
+Frequency Response Plot of the High-Pass Filter The plot below shows the frequency response (gain vs frequency) of the high-pass filter circuit. Frequency Response
+<img width="1411" height="508" alt="17541343683451387451689267107700" src="https://github.com/user-attachments/assets/e7efb54c-2406-4e33-9ec9-8a703ba49966" />
+
 
